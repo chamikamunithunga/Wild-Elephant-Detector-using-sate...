@@ -1,4 +1,4 @@
-## Project Summary
+## TrunckTracker
 
 ![Screenshot 2025-01-03 at 2 03 19 PM](https://github.com/user-attachments/assets/f26d65a1-5dd9-43e0-87ec-0affa737b0e0)
 
