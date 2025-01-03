@@ -4,13 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elephant Tracker</title>
+    <h3>Using Google Earth Engine</h3>
+    <p>Services such as NASA Earth Observing System Data and Information System (EOSDIS) provide open access to satellite imagery data</p>
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('wv3.png');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Header Styling */
+        h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 4rem;
+    background: linear-gradient(45deg, #26ff00, #005a64);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #507785;
+
+}
+
+        p{
+            text-align: center;
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 1.2rem;
+        }
+
+        /* Form Container Styling */
+        form {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Label Styling */
+        label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #34495e;
+        }
+
+        /* Input Field Styling */
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        /* Button Styling */
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #16a085;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1abc9c;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            form {
+                padding: 15px;
+            }
+
+            input[type="text"] {
+                font-size: 0.9rem;
+            }
+
+            button {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
 </head>
 <body>
+
     <h1>Wild Elephant Tracker</h1>
+
     <form action="/track" method="post">
         <label for="city">Enter City:</label>
         <input type="text" id="city" name="city" required>
         <button type="submit">Track</button>
     </form>
+
 </body>
 </html>
