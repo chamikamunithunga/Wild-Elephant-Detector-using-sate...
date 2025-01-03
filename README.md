@@ -4,6 +4,13 @@
 
 The main objective of this project is to provide users with a seamless way to visualize geospatial data on interactive maps, perform location-based services, and interact with a backend API. It is built to be both flexible and scalable, making it suitable for a wide range of applications, from personal projects to large-scale enterprise solutions.
 
+### Satellite Data Sources:
+
+NASA Worldview (EOSDIS) – Offers near real-time satellite data for observation.
+Sentinel Hub – Provides access to Sentinel satellite imagery and analysis tools.
+Google Earth Engine – A powerful tool for accessing satellite imagery and analyzing geospatial data.
+USGS Earth Explorer – Provides access to Landsat and other satellite imagery datasets.
+
 ### Key Features:
 - **Interactive Maps**: Visualize locations and geospatial data using `folium`.
 - **Geolocation Services**: Use `geopy` to get geolocation information based on addresses or coordinates.
