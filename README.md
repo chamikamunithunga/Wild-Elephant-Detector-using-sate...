@@ -16,6 +16,9 @@ https://drive.google.com/file/d/19NmI0_bejeLaRwUwKfQPg8YYcs2sTIU_/view?usp=shari
 
 
 
+
+
+
 **Project Name** is a Python-based application designed to leverage the power of mapping, geolocation, and web development. The project integrates several popular Python libraries, including `folium` for interactive maps, `geopy` for geolocation services, `flask` for creating a web application, and `requests` for handling HTTP requests.
 
 The main objective of this project is to provide users with a seamless way to visualize geospatial data on interactive maps, perform location-based services, and interact with a backend API. It is built to be both flexible and scalable, making it suitable for a wide range of applications, from personal projects to large-scale enterprise solutions.
